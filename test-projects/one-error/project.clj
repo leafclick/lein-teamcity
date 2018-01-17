@@ -3,6 +3,7 @@
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.clojure/clojure "1.5.1"]]
-  :plugins [[lein-teamcity "0.2.1"]]
-  :monkeypatch-clojure-test false)
+  :dependencies [[org.clojure/clojure "1.5.1"]
+                 [com.leafclick/circleci.test.teamcity "0.1.0"]]
+  :plugins [[com.leafclick/lein-teamcity "0.3.0"]]
+  :aliases {"test" ["run" "-m" "circleci.test/dir" :project/test-paths]})
