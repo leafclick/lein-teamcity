@@ -21,7 +21,7 @@ create file `~/.lein/profiles.d/teamcity-resources/circleci_test/config.clj` wit
 
 Enable the following set of Leiningen aliases and a `dev` dependency in `user` profile or `project.clj`
 
-    :profiles {:dev {:dependencies [[circleci/circleci.test "0.4.0"]}}
+    :profiles {:dev {:dependencies [[circleci/circleci.test "0.4.0"]]}}
     :aliases {"test" ["run" "-m" "circleci.test/dir" :project/test-paths]
               "tests" ["run" "-m" "circleci.test"]
               "retest" ["run" "-m" "circleci.test.retest"]}
