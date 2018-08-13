@@ -4,7 +4,7 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.9.0"]
-                 [com.leafclick/circleci.test.teamcity "0.1.0"]]
+                 [com.leafclick/circleci.test.teamcity "0.2.0"]]
   :plugins [[com.leafclick/lein-teamcity "0.3.1-SNAPSHOT"]]
 
   :profiles {:dev {:dependencies [[org.clojure/test.check "0.9.0"]]}}
