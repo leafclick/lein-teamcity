@@ -5,5 +5,5 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [com.leafclick/circleci.test.teamcity "0.2.0"]]
-  :plugins [[com.leafclick/lein-teamcity "0.3.1-SNAPSHOT"]]
+  :plugins [[com.leafclick/lein-teamcity "0.3.1"]]
   :aliases {"test" ["run" "-m" "circleci.test/dir" :project/test-paths]})

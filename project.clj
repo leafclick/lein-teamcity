@@ -1,4 +1,4 @@
-(defproject com.leafclick/lein-teamcity "0.3.1-SNAPSHOT"
+(defproject com.leafclick/lein-teamcity "0.3.1"
   :description "Leiningen TeamCity integration"
   :url "http://github.com/nd/lein-teamcity"
   :license {:name "Eclipse Public License"

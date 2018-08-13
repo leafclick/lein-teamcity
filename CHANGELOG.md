@@ -3,6 +3,13 @@ All notable changes to this project will be documented in this file. This change
 
 ## [Unreleased]
 
+- [Changes since the last release](https://github.com/leafclick/lein-teamcity/compare/v0.3.1...HEAD)
+
+## v0.3.1 - 2018-08-13
+
+- Updated to current versions of `circleci.test` and `circleci.test.teamcity`.
+- Enhanced test for error reporting case
+
 ## v0.3.0 - 2018-01-17
 
 - Forked from [nd/lein-teamcity](https://github.com/nd/lein-teamcity) 0.2.2 plugin.
@@ -10,4 +17,3 @@ All notable changes to this project will be documented in this file. This change
   of monkey patching `clojure.test`.
 - Added support for `test.check` tests introduced with Clojure 1.9.  
 
-[Unreleased]: https://github.com/leafclick/lein-teamcity/compare/v0.3.0...HEAD
